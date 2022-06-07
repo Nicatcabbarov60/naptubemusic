@@ -1,7 +1,4 @@
-# © KenendyXMusic
-# Adjustment for yukki by Fariz <XBOT-MUSIC>
-# Thanks Ken 💙
-# Ported by Fariz
+# © Orden
 
 from os import path
 from pyrogram import Client, filters
@@ -42,7 +39,7 @@ async def _human_time_duration(seconds):
     return ', '.join(parts)
 
 
-KYY_IMG = "https://telegra.ph/file/2b610c918dec590d2777b.jpg"
+KYY_IMG = "https://telegra.ph/file/b4f28ef4144e81a1b9903.jpg"
 
 
 @app.on_message(filters.command(["alive", "alive@Tg_Vc_00_Bot"]))
@@ -63,10 +60,10 @@ async def alive(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ", url=f"t.me/{GROUP}"
+                        "Group", url=f"t.me/{GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "ᴜᴘᴅᴀᴛᴇs", url=f"t.me/{CHANNEL}"
+                        "Kanal", url=f"t.me/{CHANNEL}"
                     )
                 ]
             ]
