@@ -49,7 +49,7 @@ async def alive(client, message):
     uptime = await _human_time_duration(int(uptime_sec))
     await client.send_photo(message.chat.id,
         photo=f"{KYY_IMG}",
-        caption=f"""**Holla {message.from_user.mention()}.** \n
+        caption=f"""**Salam Aleykum {message.from_user.mention()}.** \n
 ✘ **I'm Working Properly** \n
 ✘ **Uptime : `{uptime}`** \n
 ✘ **Pyrogram Version : `{pyrover}`** \n
