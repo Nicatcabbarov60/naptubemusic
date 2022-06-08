@@ -27,7 +27,7 @@ async def theme_func(_, message):
         try:
             await app.send_message(
                 x,
-                "Music has just restarted herself. Sorry for the issues.\n\nStart playing after 10-15 seconds again.",
+                "15-20 Saniyə sora /start yazın 💁.",
             )
         except Exception:
             pass
